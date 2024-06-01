@@ -1,6 +1,8 @@
 package usersRepositories
 
 import (
+	"fmt"
+
 	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users"
 	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users/usersPatterns"
 	"github.com/jmoiron/sqlx"
@@ -8,6 +10,7 @@ import (
 
 type IUsersRepository interface {
 	InsertUser(req *users.UserRegisterReq, isAdmin bool) (*users.UserPassport, error)
+	FindOneUserByEmail(email string) (*users.UserCredentialCheck, error)
 }
 
 type usersRepository struct {
@@ -18,6 +21,23 @@ func UsersRepository(db *sqlx.DB) IUsersRepository {
 	return &usersRepository{
 		db: db,
 	}
+}
+
+func (r *usersRepository) FindOneUserByEmail(email string) (*users.UserCredentialCheck, error) {
+	query := `
+	SELECT
+		"id",
+		"email",
+		"password",
+		"username",
+		"role_id"
+	FROM "users"
+	WHERE "email" = $1;`
+	user := new(users.UserCredentialCheck)
+	if err := r.db.Get(user, query, email); err != nil {
+		return nil, fmt.Errorf("user not found")
+	}
+	return user, nil
 }
 
 func (r *usersRepository) InsertUser(req *users.UserRegisterReq, isAdmin bool) (*users.UserPassport, error) {
