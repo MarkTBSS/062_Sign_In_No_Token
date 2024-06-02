@@ -6,7 +6,7 @@ import (
 	"os"
 	"os/signal"
 
-	_pkgConfig "github.com/MarkTBSS/062_Sign_In_No_Token/config"
+	_pkgConfig "github.com/MarkTBSS/064_Sign_In_No_Token/config"
 	"github.com/gofiber/fiber/v2"
 	"github.com/jmoiron/sqlx"
 )

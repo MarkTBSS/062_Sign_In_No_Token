@@ -1,13 +1,13 @@
 package servers
 
 import (
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/middlewares/middlewaresHandlers"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/middlewares/middlewaresRepositories"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/middlewares/middlewaresUsecases"
-	_pkgModulesMonitorMonitorHandlers "github.com/MarkTBSS/062_Sign_In_No_Token/modules/monitor/monitorHandlers"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users/usersHandlers"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users/usersRepositories"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users/usersUsecases"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/middlewares/middlewaresHandlers"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/middlewares/middlewaresRepositories"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/middlewares/middlewaresUsecases"
+	_pkgModulesMonitorMonitorHandlers "github.com/MarkTBSS/064_Sign_In_No_Token/modules/monitor/monitorHandlers"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users/usersHandlers"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users/usersRepositories"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users/usersUsecases"
 	"github.com/gofiber/fiber/v2"
 )
 

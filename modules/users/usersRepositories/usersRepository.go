@@ -3,8 +3,8 @@ package usersRepositories
 import (
 	"fmt"
 
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users/usersPatterns"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users/usersPatterns"
 	"github.com/jmoiron/sqlx"
 )
 

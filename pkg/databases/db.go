@@ -3,7 +3,7 @@ package databases
 import (
 	"log"
 
-	_pkgConfig "github.com/MarkTBSS/062_Sign_In_No_Token/config"
+	_pkgConfig "github.com/MarkTBSS/064_Sign_In_No_Token/config"
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/jmoiron/sqlx"
 )

@@ -1,6 +1,6 @@
 package middlewaresUsecases
 
-import _pkgMiddlewaresMiddlewaresRepositories "github.com/MarkTBSS/062_Sign_In_No_Token/modules/middlewares/middlewaresRepositories"
+import _pkgMiddlewaresMiddlewaresRepositories "github.com/MarkTBSS/064_Sign_In_No_Token/modules/middlewares/middlewaresRepositories"
 
 type IMiddlewaresUsecase interface {
 }

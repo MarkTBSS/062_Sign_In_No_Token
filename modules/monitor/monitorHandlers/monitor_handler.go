@@ -1,9 +1,9 @@
 package monitorHandlers
 
 import (
-	_pkgConfig "github.com/MarkTBSS/062_Sign_In_No_Token/config"
-	_pkgModulesEntities "github.com/MarkTBSS/062_Sign_In_No_Token/modules/entities"
-	_pkgModulesMonitor "github.com/MarkTBSS/062_Sign_In_No_Token/modules/monitor"
+	_pkgConfig "github.com/MarkTBSS/064_Sign_In_No_Token/config"
+	_pkgModulesEntities "github.com/MarkTBSS/064_Sign_In_No_Token/modules/entities"
+	_pkgModulesMonitor "github.com/MarkTBSS/064_Sign_In_No_Token/modules/monitor"
 	"github.com/gofiber/fiber/v2"
 )
 

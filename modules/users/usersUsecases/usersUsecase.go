@@ -3,9 +3,9 @@ package usersUsecases
 import (
 	"fmt"
 
-	"github.com/MarkTBSS/062_Sign_In_No_Token/config"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users/usersRepositories"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/config"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users/usersRepositories"
 	"golang.org/x/crypto/bcrypt"
 )
 

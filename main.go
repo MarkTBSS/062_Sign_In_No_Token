@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	_pkgConfig "github.com/MarkTBSS/062_Sign_In_No_Token/config"
-	_pkgModulesServers "github.com/MarkTBSS/062_Sign_In_No_Token/modules/servers"
-	_pkgDatabase "github.com/MarkTBSS/062_Sign_In_No_Token/pkg/databases"
+	_pkgConfig "github.com/MarkTBSS/064_Sign_In_No_Token/config"
+	_pkgModulesServers "github.com/MarkTBSS/064_Sign_In_No_Token/modules/servers"
+	_pkgDatabase "github.com/MarkTBSS/064_Sign_In_No_Token/pkg/databases"
 )
 
 func envPath() string {

@@ -1,10 +1,10 @@
 package usersHandlers
 
 import (
-	"github.com/MarkTBSS/062_Sign_In_No_Token/config"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/entities"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users"
-	"github.com/MarkTBSS/062_Sign_In_No_Token/modules/users/usersUsecases"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/config"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/entities"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users"
+	"github.com/MarkTBSS/064_Sign_In_No_Token/modules/users/usersUsecases"
 	"github.com/gofiber/fiber/v2"
 )
 
